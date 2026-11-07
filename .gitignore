@@ -1,0 +1,11 @@
+node_modules/
+.env
+*.log
+.DS_Store
+Thumbs.db
+
+# relatórios e artefatos gerados pelas suítes
+tests/**/playwright-report/
+tests/**/test-results/
+tests/**/coverage/
+tests/carga/resultados/
