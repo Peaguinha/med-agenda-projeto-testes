@@ -15,8 +15,8 @@ Somos a equipe de qualidade contratada pela Clínica MedAgenda para validar o si
 
 | Entrega | Data | Conteúdo | Situação |
 |---|---|---|---|
-| 1 | 19/11/2026 | Plano de testes | Em elaboração: [docs/Plano-de-Testes-MedAgenda-Entrega-1.docx](docs/Plano-de-Testes-MedAgenda-Entrega-1.docx) |
-| 2 | 01/12/2026 | Casos de teste, Gherkin, sessões exploratórias, matriz de rastreabilidade | Não iniciada |
+| 1 | 19/11/2026 | Plano de testes | [docs/Plano-de-Testes-MedAgenda-Entrega-1.docx](docs/Plano-de-Testes-MedAgenda-Entrega-1.docx) |
+| 2 | 01/12/2026 | Casos de teste, Gherkin, sessões exploratórias, matriz de rastreabilidade | [docs/Plano-de-Testes-MedAgenda-Entrega-2.docx](docs/Plano-de-Testes-MedAgenda-Entrega-2.docx) · casos, matriz e sessões em [docs/entrega-2/](docs/entrega-2/) · cenários em [tests/bdd/features/](tests/bdd/features/) |
 | Final | 15/12/2026 | Suíte no CI, defeitos, relatório com parecer, vídeo e apresentação | Não iniciada |
 
 ## Sobre o código do sistema
@@ -53,7 +53,7 @@ Contas de teste e demais comandos: veja o plano de testes (seção 6) e o README
 ```
 ├── api/, web/, docker-compose.yml   código original do MedAgenda (sem alterações)
 ├── docs/                            plano de testes, casos, matriz, sessões, evidências
-└── tests/                           suítes automatizadas (a partir da Entrega 2)
+└── tests/                           suítes automatizadas (BDD em tests/bdd/features; demais na Entrega final)
     ├── api/   e2e/   bdd/   carga/   a11y/   comum/
 ```
 

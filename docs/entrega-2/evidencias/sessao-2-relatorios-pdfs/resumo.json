@@ -1,0 +1,169 @@
+{
+  "inicio": "2026-11-26T12:13:57.152Z",
+  "periodo": {
+    "ini": "2026-10-27",
+    "fim": "2026-11-25"
+  },
+  "oraculo": {
+    "total": 89,
+    "porStatus": {
+      "CANCELADA": 15,
+      "REALIZADA": 57,
+      "FALTOU": 17
+    },
+    "taxaFaltas": 0.22972972972972974,
+    "taxaCancel": 0.16853932584269662,
+    "receita": 14300,
+    "atendimentos": 57,
+    "ticket": 250.87719298245614,
+    "ultimoDia": 4,
+    "totalListado": 198
+  },
+  "relConsultas": {
+    "status": 200,
+    "total": 85,
+    "porStatus": {
+      "AGENDADA": 0,
+      "CONFIRMADA": 0,
+      "EM_ATENDIMENTO": 0,
+      "REALIZADA": 53,
+      "CANCELADA": 15,
+      "FALTOU": 17
+    },
+    "taxaFaltas": 0.2,
+    "taxaCancelamento": 0.17647058823529413
+  },
+  "umDia": {
+    "data": "2026-11-25",
+    "esperado": 4,
+    "obtido": 0,
+    "status": 200
+  },
+  "fimAntesInicio": 400,
+  "formatoErrado": 400,
+  "financeiro": {
+    "status": 200,
+    "receita": 17400,
+    "atendimentos": 68,
+    "ticketMedio": 255.88235294117646,
+    "porMedico": [
+      {
+        "medico": "Dr. Ricardo Alves",
+        "atendimentos": 18,
+        "receita": 6300
+      },
+      {
+        "medico": "Dra. Helena Costa",
+        "atendimentos": 28,
+        "receita": 5600
+      },
+      {
+        "medico": "Dra. Marina Duarte",
+        "atendimentos": 22,
+        "receita": 5500
+      }
+    ],
+    "porConvenio": [
+      {
+        "convenio": "Particular",
+        "atendimentos": 25,
+        "receita": 6800
+      },
+      {
+        "convenio": "Plano Saúde Vida",
+        "atendimentos": 23,
+        "receita": 5600
+      },
+      {
+        "convenio": "Bem Estar Saúde",
+        "atendimentos": 20,
+        "receita": 5000
+      }
+    ]
+  },
+  "umAno": 200,
+  "umAnoMaisUm": 200,
+  "umAnoMaisDois": 200,
+  "pdfConsultas": {
+    "status": 200,
+    "trecho": " | Clínica MedAgenda | Rua das Acácias, 120 · Centro · (83) 3333-0000 | Relatório de consultas | Período: 25/11/2026 a 25/11/2026 | Emitido por: Administrador do Sistema | Resumo | TotalAgend.Confirm.Em atend.Realiz.Cancel.Faltas% faltas% cancel. | 00000000,0%0,0% | Por médico | MédicoTotalRealizadasFaltas | Consultas do período | Data/horaPacienteMédicoTipoSituação | Gerado em 26/11/2026, 09:13 · Clínica MedAgenda",
+    "horariosLocais": [
+      {
+        "local": "25/11/2026, 10:00:00",
+        "paciente": "Roberto Farias"
+      },
+      {
+        "local": "25/11/2026, 10:30:00",
+        "paciente": "Ana Beatriz Souza"
+      },
+      {
+        "local": "25/11/2026, 13:00:00",
+        "paciente": "Helena Vitória Ramos"
+      },
+      {
+        "local": "25/11/2026, 17:30:00",
+        "paciente": "Patrícia Gomes"
+      }
+    ]
+  },
+  "pdfFinanceiro": {
+    "status": 200,
+    "trecho": " | Clínica MedAgenda | Rua das Acácias, 120 · Centro · (83) 3333-0000 | Relatório financeiro | Período: 27/10/2026 a 25/11/2026 | Receita total: R$ 17.400,00 | Atendimentos: 68 | Ticket médio: R$ 255,88 | Por médico | MédicoAtendimentosReceita | Dr. Ricardo Alves18R$ 6.300,00 | Dra. Helena Costa28R$ 5.600,00 | Dra. Marina Duarte22R$ 5.500,00 | Por convênio | ConvênioAtendimentosReceita | Particular25R$ 6.800,00 | Plano Saúde Vida23R$ 5.600,00 | Bem Estar Saúde20R$ 5.000,00 | Gerado em 26/11/2026, 09:13 · Documento de uso interno",
+    "receitaTela": "R$ 17.400,00"
+  },
+  "permissoes": {
+    "secFinanceiro": 403,
+    "secConsultas": 200,
+    "pacConsultas": 403,
+    "helenaPedindoRicardo": {
+      "status": 200,
+      "medicos": [
+        "Dra. Helena Costa"
+      ]
+    }
+  },
+  "consultaRef": {
+    "id": "6b08222b89f07c8e497be0b4",
+    "local": "25/11/2026, 10:30:00"
+  },
+  "docs": {
+    "receita": [
+      404,
+      "{\"erro\":\"Consulta sem prescrição\"}"
+    ],
+    "atestado": [
+      200,
+      " | Clínica MedAgenda | Rua das Acácias, 120 · Centro · (83) 3333-0000 | Atestado médico | Paciente: Ana Beatriz Souza | CPF: 123.456.700-88 | Data da consulta: 25/11/2026, 10:30 | Atesto, para os devidos fins, que Ana Beatriz Souza esteve sob meus cuidados nesta data e  | necessita de 3 dia(s) de afastamento de suas atividades a partir de 25/11/2026,. | Dra. Helena Costa | CRM/PB 10234 · Clínica Geral | Documento emitido eletronicamente em 26/11/2026, 09:13 · Código 6b08222b89f07c8e497be0b4"
+    ],
+    "comprovante": [
+      200,
+      " | Clínica MedAgenda | Rua das Acácias, 120 · Centro · (83) 3333-0000 | Comprovante de agendamento | Paciente: Ana Beatriz Souza | CPF: 123.456.700-88 | Data da consulta: 25/11/2026, 10:30 | Médico: Dra. Helena Costa (Clínica Geral) | Tipo: Primeira consulta | Situação: REALIZADA | Convênio: Plano Saúde Vida | Valor: R$ 200,00 | Documento emitido eletronicamente em 26/11/2026, 09:13 · Código 6b08222b89f07c8e497be0b4"
+    ]
+  },
+  "docsFutura": {
+    "comprovante": 200,
+    "receita": 422
+  },
+  "docsPerfis": {
+    "admin@medagenda.dev": 404,
+    "joana.lima@medagenda.dev": 403,
+    "helena.costa@medagenda.dev": 404,
+    "ricardo.alves@medagenda.dev": 403,
+    "carlos.lima@email.dev": 403
+  },
+  "prontuarioNoDetalhe": {
+    "joana.lima@medagenda.dev": {
+      "status": 200,
+      "temProntuario": true
+    },
+    "helena.costa@medagenda.dev": {
+      "status": 200,
+      "temProntuario": true
+    },
+    "ana.souza@email.dev": {
+      "status": 200,
+      "temProntuario": true
+    }
+  },
+  "fim": "2026-11-26T12:13:58.446Z"
+}
