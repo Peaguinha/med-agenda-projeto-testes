@@ -1,6 +1,6 @@
 # Sessões de teste exploratório (Entrega 2)
 
-Foram realizadas duas sessões de teste exploratório baseado em sessão (SBTM), nas áreas sugeridas pelo enunciado. Cada sessão tem um charter (missão), timebox de 60 minutos, anotações cronológicas, achados e perguntas. As requisições foram feitas diretamente na API com um script de apoio que registra cada chamada (método, rota, perfil, código e resposta) e salva os PDFs gerados; esses registros são a evidência da sessão e estão no repositório. Os achados são **candidatos a defeito**: na Entrega final cada um será reexecutado pelo caso de teste correspondente e, se confirmado, registrado como issue no modelo da seção 8.
+Foram realizadas duas sessões de teste exploratório baseado em sessão (SBTM), nas áreas sugeridas pelo enunciado. Cada sessão tem um charter (missão), timebox de 60 minutos, anotações cronológicas, achados e perguntas. As requisições foram feitas diretamente na API com um script de apoio que registra cada chamada (método, rota, perfil, código e resposta) e salva os PDFs gerados; esses registros são a evidência da sessão e estão no repositório. Os achados são **candidatos a defeito**: na execução formal dos casos (trabalho futuro), cada um será reexecutado pelo caso de teste correspondente e, se confirmado, registrado como issue no modelo da seção 8.
 
 ## Sessão 1: assistente virtual
 
