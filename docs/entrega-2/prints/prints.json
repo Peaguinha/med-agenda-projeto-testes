@@ -1,0 +1,52 @@
+[
+  {
+    "nome": "01-login",
+    "desc": "Tela de login",
+    "quando": "26/11/2026, 09:27:35"
+  },
+  {
+    "nome": "02-admin-painel",
+    "desc": "Painel inicial do administrador",
+    "quando": "26/11/2026, 09:27:37"
+  },
+  {
+    "nome": "03-admin-relatorios",
+    "desc": "Relatórios (administrador)",
+    "quando": "26/11/2026, 09:27:38"
+  },
+  {
+    "nome": "04-secretaria-agendar",
+    "desc": "Agendamento pela recepção com horários livres",
+    "quando": "26/11/2026, 09:27:42"
+  },
+  {
+    "nome": "05-secretaria-prontuario",
+    "desc": "Detalhe de consulta realizada visto pela secretária",
+    "quando": "26/11/2026, 09:27:43"
+  },
+  {
+    "nome": "06-medica-painel",
+    "desc": "Painel da médica com os pacientes do dia",
+    "quando": "26/11/2026, 09:27:44"
+  },
+  {
+    "nome": "07-medica-prontuario",
+    "desc": "Prontuário de consulta realizada (médica)",
+    "quando": "26/11/2026, 09:27:46"
+  },
+  {
+    "nome": "08-paciente-portal",
+    "desc": "Portal do paciente",
+    "quando": "26/11/2026, 09:27:47"
+  },
+  {
+    "nome": "09-paciente-notificacoes",
+    "desc": "Notificações do paciente",
+    "quando": "26/11/2026, 09:27:48"
+  },
+  {
+    "nome": "10-paciente-assistente-urgencia",
+    "desc": "Assistente virtual: mesma urgência em minúsculas e em maiúsculas",
+    "quando": "26/11/2026, 09:27:52"
+  }
+]
